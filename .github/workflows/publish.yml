@@ -59,7 +59,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/lm_eval
+      url: https://pypi.org/p/lmeval_trunk
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
@@ -80,7 +80,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/lm_eval
+      url: https://test.pypi.org/p/lmeval_trunk
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
