@@ -3,9 +3,10 @@ requires = ["setuptools>=40.8.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lm_eval"
-version = "0.4.8"
+name = "lmeval_main"
+version = "0.4.8.1"
 authors = [
+    {name="SamanK", email="contact@eleuther.ai"},
     {name="EleutherAI", email="contact@eleuther.ai"}
 ]
 description = "A framework for evaluating language models"
